@@ -1,0 +1,11 @@
+:root {
+  --body-bg-color: #fff;
+  --elements-color: #f16718;
+  --hover-color: #ff9b62;
+  --text-color: #7b8bad;
+  --headings-color: #162542;
+  --pre-order-btn-bg-color: #e8eff2;
+  --pre-order-btn-color: #162542;
+  --pre-order-btn-hover-bg-color: #162542;
+  --pre-order-btn-hover-color: #fff;
+}

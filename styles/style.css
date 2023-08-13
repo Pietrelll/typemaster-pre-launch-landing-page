@@ -1,0 +1,10 @@
+@import url(./variables.css);
+
+body {
+  font-family: "Barlow", sans-serif;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
