@@ -1,11 +1,21 @@
 :root {
   --body-bg-color: #fff;
   --elements-color: #f16718;
-  --hover-color: #ff9b62;
   --text-color: #7b8bad;
   --headings-color: #162542;
-  --pre-order-btn-bg-color: #e8eff2;
-  --pre-order-btn-color: #162542;
-  --pre-order-btn-hover-bg-color: #162542;
-  --pre-order-btn-hover-color: #fff;
+  --hero-pre-order-btn-color: #fff;
+  --hero-pre-order-btn-bg-color: #f16718;
+  --hero-pre-order-btn-hover-bg-color: #ff9b62;
+  --nav-pre-order-btn-bg-color: #e8eff2;
+  --nav-pre-order-btn-color: #162542;
+  --nav-pre-order-btn-hover-bg-color: #162542;
+  --nav-pre-order-btn-hover-color: #fff;
+  --h1-font-size: 3.5rem;
+  --h1-line-height: 3.5rem;
+  --h2-font-size: 2rem;
+  --h2-line-height: 2.25rem;
+  --h3-font-size: 1.5rem;
+  --h3-line-height: 1.75rem;
+  --text-font-size: 1rem;
+  --text-line-height: 1.625rem;
 }

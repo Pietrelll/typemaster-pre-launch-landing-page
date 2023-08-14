@@ -8,3 +8,73 @@ body {
 * {
   box-sizing: border-box;
 }
+
+header {
+  margin: 1.5rem;
+}
+
+.nav__ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__ul__li {
+  display: inline;
+}
+
+.pre-order-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 9.375rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+.nav__btn {
+  background-color: var(--nav-pre-order-btn-bg-color);
+  color: var(--nav-pre-order-btn-color);
+  transition: background 0.3s ease-in-out;
+}
+
+.nav__btn:is(:hover, :focus) {
+  background-color: var(--nav-pre-order-btn-hover-bg-color);
+  color: var(--nav-pre-order-btn-hover-color);
+}
+
+.hero {
+  margin: 1.5rem;
+}
+
+.hero__heading {
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-line-height);
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--headings-color);
+}
+
+.hero__main-text {
+  color: var(--text-color);
+}
+
+.hero__btn {
+  background-color: var(--hero-pre-order-btn-bg-color);
+  color: var(--hero-pre-order-btn-color);
+  transition: background 0.3s ease-in-out;
+}
+
+.hero__btn:is(:hover, :focus) {
+  background-color: var(--hero-pre-order-btn-hover-bg-color);
+  color: var(--nav-pre-order-btn-hover-color);
+}
+
+.hero__date-text {
+  display: inline-block;
+}
