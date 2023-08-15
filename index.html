@@ -22,7 +22,9 @@
       <nav>
         <ul class="nav__ul">
           <li class="nav__ul__li">
-            <a href="#"><img src="./assets/shared/logo.svg" alt="" /></a>
+            <a href="#" title="go to landing page"
+              ><img src="./assets/shared/logo.svg" alt=""
+            /></a>
           </li>
           <li class="nav__ul__li">
             <a href="#" class="nav__btn pre-order-btn">Pre-order now</a>
@@ -37,11 +39,13 @@
           Improve your productivity and gaming without breaking the bank.
           Upgrade to a high quality mechanical typing experience.
         </p>
-        <a href="#" class="hero__btn pre-order-btn">Pre-order now</a>
-        <p class="hero__date-text">Release on 5/27</p>
+        <div class="wrapper">
+          <a href="#" class="hero__btn pre-order-btn">Pre-order now</a>
+          <p class="hero__release-date-text">Release on 5/27</p>
+        </div>
       </section>
       <section class="gallery" aria-hidden="true">
-        <picture>
+        <picture class="gallery__picture1">
           <source
             srcset="./assets/desktop/image-keyboard.jpg"
             media="(min-width: 1200px)"
@@ -52,7 +56,7 @@
           />
           <img src="./assets/mobile/image-keyboard.jpg" alt="" />
         </picture>
-        <picture>
+        <picture class="gallery__picture2">
           <source
             srcset="./assets/desktop/image-phone-and-keyboard.jpg"
             media="(min-width: 1200px)"
@@ -63,7 +67,7 @@
           />
           <img src="./assets/mobile/image-phone-and-keyboard.jpg" alt="" />
         </picture>
-        <picture>
+        <picture class="gallery__picture3">
           <source
             srcset="./assets/desktop/image-glass-and-keyboard.jpg"
             media="(min-width: 1200px)"
