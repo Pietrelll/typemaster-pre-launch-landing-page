@@ -45,39 +45,45 @@
         </div>
       </section>
       <section class="gallery" aria-hidden="true">
-        <picture class="gallery__picture1">
-          <source
-            srcset="./assets/desktop/image-keyboard.jpg"
-            media="(min-width: 1200px)"
-          />
-          <source
-            srcset="./assets/tablet/image-keyboard.jpg"
-            media="(min-width: 700px)"
-          />
-          <img src="./assets/mobile/image-keyboard.jpg" alt="" />
-        </picture>
-        <picture class="gallery__picture2">
-          <source
-            srcset="./assets/desktop/image-phone-and-keyboard.jpg"
-            media="(min-width: 1200px)"
-          />
-          <source
-            srcset="./assets/tablet/image-phone-and-keyboard.jpg"
-            media="(min-width: 700px)"
-          />
-          <img src="./assets/mobile/image-phone-and-keyboard.jpg" alt="" />
-        </picture>
-        <picture class="gallery__picture3">
-          <source
-            srcset="./assets/desktop/image-glass-and-keyboard.jpg"
-            media="(min-width: 1200px)"
-          />
-          <source
-            srcset="./assets/tablet/image-glass-and-keyboard.jpg"
-            media="(min-width: 700px)"
-          />
-          <img src="./assets/mobile/image-glass-and-keyboard.jpg" alt="" />
-        </picture>
+        <div class="gallery__picture1">
+          <picture>
+            <source
+              srcset="./assets/desktop/image-keyboard.jpg"
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="./assets/tablet/image-keyboard.jpg"
+              media="(min-width: 700px)"
+            />
+            <img src="./assets/mobile/image-keyboard.jpg" alt="" />
+          </picture>
+        </div>
+        <div class="gallery__picture2">
+          <picture>
+            <source
+              srcset="./assets/desktop/image-phone-and-keyboard.jpg"
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="./assets/tablet/image-phone-and-keyboard.jpg"
+              media="(min-width: 700px)"
+            />
+            <img src="./assets/mobile/image-phone-and-keyboard.jpg" alt="" />
+          </picture>
+        </div>
+        <div class="gallery__picture3">
+          <picture>
+            <source
+              srcset="./assets/desktop/image-glass-and-keyboard.jpg"
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="./assets/tablet/image-glass-and-keyboard.jpg"
+              media="(min-width: 700px)"
+            />
+            <img src="./assets/mobile/image-glass-and-keyboard.jpg" alt="" />
+          </picture>
+        </div>
       </section>
       <section class="product-description">
         <h2 class="product-description__heading">
@@ -90,14 +96,18 @@
         </p>
       </section>
       <section class="product-characteristics">
-        <img src="./assets/shared/icon-compatible.svg" alt="" />
+        <div class="product-characteristics__icon">
+          <img src="./assets/shared/icon-compatible.svg" alt="" />
+        </div>
         <h3 class="product-characteristics__heading">Highly compatible</h3>
         <p class="product-characteristics__text">
           Easy to use and works well with all major computer brands, gaming
           consoles and mobile devices. Plug & play, no installation or driver
           needed.
         </p>
-        <img src="./assets/shared/icon-bluetooth.svg" alt="" />
+        <div class="product-characteristics__icon">
+          <img src="./assets/shared/icon-bluetooth.svg" alt="" />
+        </div>
         <h3 class="product-characteristics__heading">
           Wireless with bluetooth
         </h3>
@@ -106,14 +116,18 @@
           keyboard from up to 30ft away. Simply plug the unifying receiver into
           your computer.
         </p>
-        <img src="./assets/shared/icon-battery.svg" alt="" />
+        <div class="product-characteristics__icon">
+          <img src="./assets/shared/icon-battery.svg" alt="" />
+        </div>
         <h3 class="product-characteristics__heading">High capacity battery</h3>
         <p class="product-characteristics__text">
           Equipped with a long-lasting built-in battery, you’ll never have to
           spend a dime on replaceable ones.  Enjoy 40 hours of usage time
           between charges.
         </p>
-        <img src="./assets/shared/icon-light.svg" alt="" />
+        <div class="product-characteristics__icon">
+          <img src="./assets/shared/icon-light.svg" alt="" />
+        </div>
         <h3 class="product-characteristics__heading">RGB backlit modes</h3>
         <p class="product-characteristics__text">
           Choose from 4 backlight brightness levels and adjustable breathing
