@@ -232,6 +232,28 @@ footer {
 
 /* tablet styles */
 @media (min-width: 700px) {
+  .product-description {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 2rem;
+  }
+
+  .product-description__heading {
+    margin: 0;
+    text-align: left;
+    max-width: 10ch;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .product-description__main-text {
+    margin: 0;
+    text-align: left;
+    max-width: 45ch;
+    align-self: center;
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
   .product-characteristics {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -240,14 +262,17 @@ footer {
     grid-row-gap: 2rem;
     margin: 2.5rem;
   }
+
   .product-characteristics__article {
     display: block;
   }
+
   .product-characteristics__article__heading {
     text-align: left;
     margin: 1rem 0 1rem 0;
     max-width: 15ch;
   }
+
   .product-characteristics__article__text {
     text-align: left;
     margin: 0;
