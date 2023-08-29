@@ -1,4 +1,5 @@
 @import url(./variables.css);
+
 /* mobile styles */
 /* global styles */
 body {
@@ -103,10 +104,11 @@ header {
 /* end of hero styles */
 
 /* gallery styles */
-.gallery {
+.hero-and-gallery-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto 50%;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: auto 50%; */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   max-width: 100%;
@@ -115,18 +117,15 @@ header {
 }
 
 .gallery__picture1 {
-  grid-area: 1 / 1 / 2 / 3;
   transform: translate(1.5rem);
 }
 
 .gallery__picture2 {
-  grid-area: 2 / 1 / 3 / 2;
   position: relative;
-  width: 75%;
   transform: translate(-1.5rem);
 }
 
-.gallery__picture2::before {
+/* .gallery__picture2::before {
   content: "";
   position: absolute;
   top: 0;
@@ -136,13 +135,7 @@ header {
   background-color: var(--elements-color);
   z-index: -1;
   border-radius: 20px;
-}
-
-.gallery__picture3 {
-  grid-area: 2 / 2 / 3 / 3;
-  transform: translate(-4rem);
-  width: 126%;
-}
+} */
 
 .gallery img {
   display: block;
