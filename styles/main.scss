@@ -20,6 +20,8 @@
   --text-line-height: 1.625rem;
 }
 
+// mobile styles
+// global styles
 body {
   font-family: "Barlow", sans-serif;
   margin: auto;
@@ -49,6 +51,9 @@ header {
   border-radius: 10px;
 }
 
+// end of global styles
+
+// nav styles
 .nav__ul {
   list-style: none;
   padding: 0;
@@ -72,6 +77,9 @@ header {
   color: var(--nav-pre-order-btn-hover-color);
 }
 
+// end of nav styles
+
+// hero styles
 .hero {
   margin: 1.5rem;
   margin-bottom: 4rem;
@@ -113,6 +121,9 @@ header {
   text-transform: uppercase;
 }
 
+// end of hero styles
+
+// gallery styles
 .hero-and-gallery-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -143,6 +154,7 @@ header {
   z-index: -1;
   border-radius: 20px;
 } */
+
 .gallery img {
   display: block;
   max-width: 100%;
@@ -150,6 +162,9 @@ header {
   mix-blend-mode: multiply;
 }
 
+// end of gallery styles
+
+// product description styles
 .product-description__heading {
   font-size: var(--h2-font-size);
   font-weight: 900;
@@ -170,6 +185,10 @@ header {
   margin: 2rem;
   margin-bottom: 7rem;
 }
+
+// end of product description styles
+
+// product characteristic styles
 
 .product-characteristics__article {
   display: flex;
@@ -208,6 +227,9 @@ header {
   margin-inline: 1.5rem;
 }
 
+// end of product characteristic styles
+
+// footer styles
 footer {
   text-align: center;
   color: var(--text-color);
@@ -215,6 +237,11 @@ footer {
   margin-bottom: 3.5rem;
 }
 
+// end of footer styles
+
+// end of mobile styles
+
+// tablet styles
 @media (min-width: 700px) {
   .product-description {
     display: grid;
@@ -222,19 +249,22 @@ footer {
     grid-template-rows: 1fr;
     margin: 2rem;
   }
+
   .product-description__heading {
     margin: 0;
     text-align: left;
     max-width: 10ch;
-    grid-area: 1/1/2/2;
+    grid-area: 1 / 1 / 2 / 2;
   }
+
   .product-description__main-text {
     margin: 0;
     text-align: left;
     max-width: 45ch;
     align-self: center;
-    grid-area: 1/2/2/3;
+    grid-area: 1 / 2 / 2 / 3;
   }
+
   .product-characteristics {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -243,19 +273,20 @@ footer {
     grid-row-gap: 2rem;
     margin: 2.5rem;
   }
+
   .product-characteristics__article {
     display: block;
   }
+
   .product-characteristics__article__heading {
     text-align: left;
     margin: 1rem 0 1rem 0;
     max-width: 15ch;
   }
+
   .product-characteristics__article__text {
     text-align: left;
     margin: 0;
     max-width: 31ch;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
