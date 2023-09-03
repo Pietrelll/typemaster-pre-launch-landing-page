@@ -37,6 +37,10 @@ header {
   margin: 1.5rem;
 }
 
+.decoration-rectangle {
+  display: none;
+}
+
 .pre-order-btn {
   display: flex;
   justify-content: center;
@@ -254,6 +258,10 @@ footer {
 
 // tablet styles
 @media (min-width: 700px) {
+  .decoration-rectangle {
+    display: none;
+  }
+
   .product-description {
     display: grid;
     grid-template-columns: 1fr;
@@ -307,8 +315,10 @@ footer {
     grid-template-areas:
       "a b"
       "c d"
+      "e e"
     ;
     row-gap: 2rem;
+    margin-top: 3rem;
   }
 
   .hero {
@@ -329,5 +339,85 @@ footer {
 
   .gallery__picture3 {
     transform: translateX(-6rem);
+  }
+
+  .product-description {
+    grid-area: e;
+    margin-bottom: 5rem;
+  }
+
+  footer {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width:1200px) {
+
+  // .decoration-rectangle {
+  //   position: absolute;
+  //   display: block;
+  //   width: 255px;
+  //   height: 240px;
+  //   border-radius: 20px;
+  //   background-color: #E8EFF2;
+  //   left: 0;
+  //   // top: 10rem;
+  // }
+  body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    overflow: clip;
+    overflow-clip-margin: 5rem;
+  }
+
+  .decoration-rectangle2 {
+    position: absolute;
+    display: block;
+    width: 255px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #E8EFF2;
+    right: 10px;
+    transform: translateX(15rem);
+  }
+
+  .grid-wrapper {
+    grid-template-areas:
+      "a b b"
+      "c d e"
+    ;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
+    position: relative;
+  }
+
+  .gallery__picture1 {
+    grid-area: b;
+    max-width: 40%;
+    place-self: center;
+    transform: translateX(-5rem);
+  }
+
+  .gallery__picture2 {
+    grid-area: c;
+  }
+
+  .gallery__picture3 {
+    grid-area: d;
+  }
+
+  .product-description {
+    grid-area: e;
+  }
+
+  .product-characteristics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    margin: 2.5rem;
   }
 }
