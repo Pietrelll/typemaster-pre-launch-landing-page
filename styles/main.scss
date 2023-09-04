@@ -368,8 +368,6 @@ footer {
   body {
     margin-left: 5rem;
     margin-right: 5rem;
-    overflow: clip;
-    overflow-clip-margin: 5rem;
   }
 
   .decoration-rectangle2 {
@@ -410,6 +408,15 @@ footer {
 
   .product-description {
     grid-area: e;
+    display: block;
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      max-width: 29ch;
+    }
   }
 
   .product-characteristics {
