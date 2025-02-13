@@ -443,5 +443,10 @@ footer > p {
     margin-bottom: 0;
   }
 }
+@media (min-width: 1524px) {
+  .gallery__picture2 {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
