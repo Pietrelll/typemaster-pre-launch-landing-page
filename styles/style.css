@@ -273,7 +273,7 @@ footer > p {
     margin: 2.5rem 2.5rem 3.875rem 2.5rem;
   }
   .pre-order-btn {
-    padding: 1rem 1.5rem;
+    padding: 1.22rem 1.67rem;
   }
   .grid-wrapper {
     display: grid;
@@ -283,19 +283,19 @@ footer > p {
   }
   .hero {
     margin: 3.875rem 0 3.75rem 2.5rem;
-    max-width: 80%;
     grid-area: a;
+    line-height: normal;
   }
   .hero .hero__main-text {
     max-width: 40ch;
+    margin: 2.125rem 0 2.5rem 0;
   }
   .gallery__picture1 {
     grid-area: b;
     display: flex;
-    transform: translateX(0);
+    transform: translateX(7rem);
   }
   .gallery__picture1 img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
   }
@@ -304,6 +304,7 @@ footer > p {
     display: flex;
     margin: 2.5rem 0 0 2.5rem;
     transform: translateX(0);
+    width: 100%;
   }
   .gallery__picture2 img {
     width: 100%;
@@ -313,8 +314,9 @@ footer > p {
   .gallery__picture3 {
     grid-area: d;
     display: flex;
-    margin: 2.5rem 2.5rem 0 0;
-    transform: translateX(0);
+    margin: 2.5rem 2.5rem 0 1.875rem;
+    max-width: 84%;
+    transform: translateX(1.875rem);
   }
   .gallery__picture3 img {
     width: 100%;
@@ -336,12 +338,12 @@ footer > p {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
-    margin: 4.5rem 2.5rem 8.875rem 2.5rem;
+    margin: 0rem 2.5rem 3.375rem 2.5rem;
   }
   .product-characteristics .product-characteristics__article {
-    aspect-ratio: 1;
     align-items: start;
     text-align: left;
+    margin: 0 0 4.5rem 0;
   }
   .product-characteristics .product-characteristics__article__text {
     max-width: 31ch;
