@@ -15,5 +15,6 @@ https://piotrplotast.github.io/typemaster-pre-launch-landing-page/
 - Sass
 ## Screenshots
 
+![image](https://github.com/user-attachments/assets/413b200a-d18f-47e9-b506-b8fc65fe6f7d)
 
 
